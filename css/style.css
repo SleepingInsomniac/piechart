@@ -1,0 +1,59 @@
+* {
+	font-family: helvetica, sans-serif;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	margin: 0px auto;
+	max-width: 800px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 3px;
+	margin: 2px;
+}
+
+h1 {
+	font-size: 1.6em;
+}
+
+h2 {
+	font-size: 1.0em;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li {
+	
+}
+
+ul li span {
+	margin: 5px;
+}
+
+canvas {
+	float: left;
+}
+
+.labels {
+	float: left;
+	max-width: 300px;
+	padding: 0;
+	margin: 0;
+}
+.labels li {
+	max-width: 300px;
+	padding: 2px 0px;
+	margin: 2px 0px;	
+}
+
+p {
+	padding: 2px 0;
+	margin: 2px 0;
+}

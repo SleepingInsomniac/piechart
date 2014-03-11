@@ -1,0 +1,31 @@
+<?php
+	require_once 'includes/functions.inc.php';
+?>
+
+<!doctype html>
+<html lang="en"> 
+<head> 
+	<meta charset="utf-8"> 
+	<title>Piechart</title> 
+	<meta name="description" content="HTML5 Docmument" />
+	<meta name="author" content="Alex Clink" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
+	
+	<script src="script/piechart.js" type="text/javascript" charset="utf-8"></script>
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="container" id="container">
+		<script type="text/javascript">
+			var container = document.getElementById('container');
+			var chart = generatePieChart(400, 'pieChart', [[50, 'value1'], [150, 'value2']]);
+			container.appendChild(chart);
+		</script>
+	</div>
+</body> 
+</html>
